@@ -1,0 +1,41 @@
+.GameLogic {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.wrapper {
+    width: 90%;
+    max-width: 1158px;
+    margin: auto;
+}
+
+@media screen and (max-width: 986px) {
+  .wrapper {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 942px) {
+  .wrapper {
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 853px) {
+  .wrapper {
+    margin-top: 55px;
+  }
+}
+
+@media screen and (max-width: 764px) {
+  .wrapper {
+    margin-top: 70px;
+  }
+}
+
+@media screen and (max-width: 506px) {
+  .wrapper {
+    margin-top: 60px;
+  }
+}

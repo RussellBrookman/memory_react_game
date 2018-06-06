@@ -1,0 +1,94 @@
+.card {
+  background: rgb(232, 232, 232);
+  border-radius: 2px;
+  height: 200px;
+  margin: 1rem;
+  width: 200px;
+  box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+}
+
+.card>img {
+  position: relative;
+  top: 34px;
+  width: 60%;
+}
+
+.card:hover {
+  background-color: rgb(250, 241, 129);
+  cursor: pointer;
+}
+
+img:active {
+  transform: rotate(45deg);
+}
+
+@media screen and (max-width: 1031px) {
+  .card {
+    height: 190px;
+    width: 190px;
+  }
+}
+
+@media screen and (max-width: 986px) {
+  .card {
+    height: 180px;
+    width: 180px;
+  }
+}
+
+@media screen and (max-width: 942px) {
+  .card {
+    height: 160px;
+    width: 160px;
+  }
+}
+
+@media screen and (max-width: 853px) {
+  .card {
+    height: 140px;
+    width: 140px;
+  }
+  .card>img {
+    top: 34px;
+  }
+}
+
+@media screen and (max-width: 764px) {
+  .card {
+    height: 120px;
+    width: 120px;
+  }
+  .card>img {
+    top: 24px;
+  }
+}
+
+@media screen and (max-width: 506px) {
+  .card {
+    height: 100px;
+    width: 100px;
+  }
+  .card>img {
+    top: 24px;
+  }
+}
+
+@media screen and (max-width: 439px) {
+  .card {
+    height: 90px;
+    width: 90px;
+  }
+  .card>img {
+    top: 20px;
+  }
+}
+
+@media screen and (max-width: 406px) {
+  .card {
+    height: 80px;
+    width: 80px;
+  }
+  .card>img {
+    top: 16px;
+  }
+}

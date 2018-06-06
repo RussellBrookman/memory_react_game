@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "image":
+      "http://localhost:3000/Pictures/goomba.jpg"
+  },
+  {
+    "id": 2,
+    "image":
+      "http://localhost:3000/Pictures/kingKoopa.jpg"
+  },
+  {
+    "id": 3,
+    "image":
+      "http://localhost:3000/Pictures/luigi.jpg"
+  },
+  {
+    "id": 4,
+    "image":
+      "http://localhost:3000/Pictures/marioCard.jpg"
+  },
+  {
+    "id": 5,
+    "image":
+      "http://localhost:3000/Pictures/oneOfThoseTurtleGuys.jpg"
+  },
+  {
+    "id": 6,
+    "image":
+      "http://localhost:3000/Pictures/princessToadstool.jpg"
+  }
+]
